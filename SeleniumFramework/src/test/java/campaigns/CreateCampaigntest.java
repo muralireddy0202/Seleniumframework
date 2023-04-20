@@ -16,6 +16,7 @@ public class CreateCampaigntest extends BaseClass {
 	@Test(groups = {"smoketest","regressiontest"})
 	public void createCampaign() throws Throwable 
 	{
+		//pushed and pulling back
 //		String Key="webdriver.chrome.driver";
 //		String value="./src/main/resources/chromedriver.exe";
 //		System.setProperty(Key, value);
