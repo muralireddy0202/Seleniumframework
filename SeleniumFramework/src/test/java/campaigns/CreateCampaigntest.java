@@ -17,6 +17,7 @@ public class CreateCampaigntest extends BaseClass {
 	public void createCampaign() throws Throwable 
 	{
 		//pushed and pulling back
+		//2nd push
 //		String Key="webdriver.chrome.driver";
 //		String value="./src/main/resources/chromedriver.exe";
 //		System.setProperty(Key, value);
@@ -65,6 +66,7 @@ public class CreateCampaigntest extends BaseClass {
 		loginpage log=new loginpage(driver);
 		log.login(USERNAME,PASSWORD);
 		*/
+		
 //		driver.findElement(By.name("user_name")).sendKeys(USERNAME);
 //		driver.findElement(By.name("user_password")).sendKeys(PASSWORD);
 //		driver.findElement(By.id("submitButton")).click();
